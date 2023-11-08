@@ -1,0 +1,125 @@
+.container {
+    width:99%;
+    height: 600px;
+    display: grid;
+    /* display: wrap; */
+    gap: 3px;
+    grid-template-columns: 2fr 1fr 1.5fr 1fr 60px;
+    grid-template-rows: repeat(8, 1fr);
+  }
+  .col1 {
+    width: 100px;
+    height: 550px;
+    margin-left: 40px;
+    background-color: rgb(225, 215, 215);
+    grid-row: span 8;
+    font-family: calibri;
+    text-align: right;
+    margin-right: -200px;
+
+  }
+  .col1 p {
+    text-align: left;
+    margin-right: 20px;
+    /* margin-right: 100px; */
+    color: rgb(68, 145, 151);
+    /* font-weight: 500; */
+  }
+  .col1 h1 {
+    color: rgb(59, 129, 135);
+    margin-top: 120px;
+    margin-right: 150px;
+    font-size: 40px;
+    text-align: left;
+  }
+  .col2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPQtTYaAj87pAtPH1utTjQCOMpTVxhuL2cg&usqp=CAU);
+    background-size: cover;
+    grid-row: span 4;
+    margin-left: 70px;
+  }
+  .col3 {
+    background-image: url(https://www.anthroencyclopedia.com/sites/www.anthroencyclopedia.com/files/landscape.jpg);
+    background-size: cover;
+    grid-row: span 3;
+    /* margin-left: 100px; */
+
+    
+  }
+
+  .col4 {
+    background-color: #a2f5d1;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/59523d5c4c8b031b6d9dcb5b/1645865436351-NF1WX4AHJUE43OZ3GJCY/_S6A1420-Edit-Edit.jpg?format=2500w);
+    background-size: cover;
+    grid-row: span 2;
+    /* margin-left: 70px; */
+
+  }
+  /* .col5 {
+    background-color: #a5fad5;
+  } */
+  .col6 {
+    background-color: #a9f4d4;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/59523d5c4c8b031b6d9dcb5b/1645865436351-NF1WX4AHJUE43OZ3GJCY/_S6A1420-Edit-Edit.jpg?format=2500w);
+    background-size: cover;
+    grid-row: span 3;
+
+  }
+  .col7 {
+    background-color: #a5f3d1;
+    background-image: url(https://i.pinimg.com/736x/a4/18/7c/a4187cba5c26527b69bbc3395bd3eb73.jpg);
+    background-size: cover;
+    grid-row: span 4;
+    /* margin-left: 70px; */
+
+  }
+  .col8 {
+    background-color: rgb(59, 129, 135);
+    grid-row: span 3;
+    /* margin-left: 100px; */
+
+  }
+  .col8 h2 {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #9ef4cf;
+    font-family: calibri;
+    text-transform: uppercase;
+  }
+  .col9 {
+    background-image: url(https://i.pinimg.com/originals/78/04/e5/7804e581981b060a4ab2e6652e248d73.jpg);
+    background-size: cover;
+    grid-row: span 4;
+    margin-left: 70px;
+  }
+  .col10 {
+    background-color: #a1f3cf;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjGQU2-R8seFQ0Z48th6L8RdrEPBq2z2Qwqq1sxp8rKnHAzGnIgd1lcIHjhitaWkLImDw&usqp=CAU);
+    background-size: cover;
+    grid-row: span 3;
+
+
+    
+  }
+  .col11 {
+    background-color: #a2f8d3;
+    background-image: url(  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjci8Le3xNxrm9mW1jMY4lSFxCJg-UeHFow&usqp=CAU);
+    background-size: cover;
+    grid-row: span 2;
+    /* margin-left: 100px; */
+
+
+
+  }
+  .col12 {
+    background-color: #97f2ca;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDG4-P9g23NqTBhrYqaCK8mI1Swm5xS6QBNPyMXAJOSFUQ0Wljo6n7iGPjFXbNuhvHe8&usqp=CAU);
+    background-size: cover;
+    grid-row: span 2;
+    /* margin-left: 70px; */
+
+  }
+  /* .col13 {
+    background-color: #a2f3d0;
+  } */
